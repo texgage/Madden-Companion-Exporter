@@ -6,7 +6,7 @@ const app = express();
 
 // TODO: Enter the path to your service account json file
 // Need help with this step go here: https://firebase.google.com/docs/admin/setup
-const serviceAccount = require("path/to/madden-bowl-firebase-adminsdk-yo5bt-1324079b48.json");
+const serviceAccount = require("./madden-bowl-firebase-adminsdk-yo5bt-1324079b48.json");
 
 // TODO: Enter your database url from firebase
 admin.initializeApp({
